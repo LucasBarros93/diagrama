@@ -2,7 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import Sliders from "./components/Slider";
-import Drone from "./assets/Images/drone.gif";
+import Drone from "./assets/Images/droneGif.gif";
 
 function App() {
   return (
