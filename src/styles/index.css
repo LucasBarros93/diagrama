@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Urbanist, Arial, Helvetica, sans-serif;
+  line-height: 1;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  background: #436448;
+  color: white;
+}
+
+::selection {
+  background: #436448;
+  color: white;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.text-wrapper > * {
+  @apply leading-5;
+}
+
+@layer utilities {
+  .no-marker {
+    list-style-type: none;
+  }
+}
+
+.rjsf-form * {
+  width: 100%;
+}
+
+.rjsf-form label {
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.rjsf-form input[type="text"] {
+  background-color: white;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.rjsf-form button[type="submit"] {
+  background-color: #436448;
+  color: white;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius: 500px;
+}
+
+p.line-h-1 {
+  line-height: 1;
+}
