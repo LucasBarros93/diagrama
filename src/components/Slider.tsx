@@ -63,7 +63,7 @@ export default function CustomizedSlider() {
         aria-label="Risco"
         defaultValue={20}
       />
-      <Box sx={{ m: 3 }} />
+      {/* <Box sx={{ m: 3 }} />
       <Typography gutterBottom>Tempo</Typography>
       <SliderComponent
         valueLabelDisplay="auto"
@@ -90,7 +90,7 @@ export default function CustomizedSlider() {
         valueLabelDisplay="auto"
         aria-label="Risco"
         defaultValue={20}
-      />
+      /> */}
     </Box>
   );
 }

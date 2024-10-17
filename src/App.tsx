@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import Sliders from "./components/Slider";
 import Drone from "./assets/Images/droneGif.gif";
 
@@ -55,8 +53,14 @@ function App() {
         </div>
       </div>
 
-      <div>
-        {" "}
+      <div className="flex flex-col gap-4">
+        <div className="w-[200px] h-2 flex items-center bg-gray-300">
+          <div className="w-full h-2 flex flex-row items-center ">
+            <div className="w-4 h-2 bg-black hover:w-full duration-3000">
+            </div>
+            
+          </div>
+        </div>{" "}
         <Sliders />
       </div>
     </div>
