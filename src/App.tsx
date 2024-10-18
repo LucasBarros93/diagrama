@@ -56,7 +56,7 @@ function App() {
       <div className="flex flex-col gap-4">
         <div className="w-[200px] h-2 flex items-center bg-gray-300">
           <div className="w-full h-2 flex flex-row items-center ">
-            <div className="w-4 h-2 bg-black hover:w-full duration-3000">
+            <div className="w-4 h-2 bg-primary hover:w-full duration-3000">
             </div>
             
           </div>
